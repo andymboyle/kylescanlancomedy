@@ -1,0 +1,39 @@
+    .featurette {
+        padding-top: 0px;
+    }
+    .featurette-divider {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .carousel-caption {
+        text-align: left;
+    }
+
+@media (max-width: 765px) {
+  .top-photo {
+    padding-top: 70px;
+  }
+
+  .carousel {
+    margin-bottom: 0px;
+  }
+
+  .make-dark {
+    color: #333;
+    text-shadow: none;
+  }
+
+  .carousel-caption {
+    padding-bottom: 0px;
+  }
+
+  .carousel .item {
+    height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .item {
+    height: 300px;
+  }
+}
